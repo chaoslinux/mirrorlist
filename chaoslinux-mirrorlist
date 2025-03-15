@@ -1,0 +1,14 @@
+##############################################
+#                                            #
+#      Chaoslinux Repository Mirrorlist      #
+#                                            #
+##############################################
+
+# Add this entry to /etc/pacman.conf:
+#
+#   [chaos]
+#   SigLevel = PackageRequired
+#   Include = /etc/pacman.d/chaoslinux-mirrorlist
+
+
+Server = https://github.com/chaoslinux/repo/raw/main/$repo/$arch
